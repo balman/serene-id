@@ -10,7 +10,7 @@ const ID_LEN = 12
  * Generate a serene ID.
  *
  * @param {object} [opts={}] Configuration options
- * @returns
+ * @returns A serene ID.
  */
 function sereneId (opts = {}) {
   let identifierLength = ID_LEN
