@@ -1,0 +1,38 @@
+{
+  "name": "serene-id",
+  "version": "1.0.0",
+  "description": "Generate serene IDs to use in your projects.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Ben Alman",
+    "email": "alman.benjamin@gmail.com",
+    "url": "https://github.com/balman"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "peaceful",
+    "zen",
+    "serene",
+    "id",
+    "identifier"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/balman/serene-id.git"
+  },
+  "homepage": "https://github.com/balman/serene-id",
+  "bugs": {
+    "url": "https://github.com/balman/serene-id/issues"
+  },
+  "dependencies": {
+    "nanoid": "^3.1.25",
+    "unique-random-array": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.2",
+    "uuid": "^8.3.2"
+  }
+}
